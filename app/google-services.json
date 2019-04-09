@@ -1,0 +1,52 @@
+{
+  "project_info": {
+    "project_number": "331926702363",
+    "firebase_url": "https://farmerbuddy-b4801.firebaseio.com",
+    "project_id": "farmerbuddy-b4801",
+    "storage_bucket": "farmerbuddy-b4801.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331926702363:android:787555dc84bc6e85",
+        "android_client_info": {
+          "package_name": "com.example.farmerbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331926702363-7hbtd4k6ulfm0bp8mlivguvft8lsa6on.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.farmerbuddy",
+            "certificate_hash": "35fe1ac8c63c271d1f35590d556008930387bdd6"
+          }
+        },
+        {
+          "client_id": "331926702363-dntv1io3e554jg22tl5cpo2oar1nuj9v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.farmerbuddy",
+            "certificate_hash": "e5527a161895a905b74973e3bdfb74cdff4bdbcc"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-NcCd0NK7QrbMcuiV92G_0H1XG4QDVbA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331926702363-7k13ik9kce8tt044eo2v4osfk92l2ngc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

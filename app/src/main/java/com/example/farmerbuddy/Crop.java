@@ -1,15 +1,15 @@
 package com.example.farmerbuddy;
 
 public class Crop {
-    String cropid;
+    String id;
     String cropname;
     String quantities;
     String addres;
     String detail;
     String phone;
 
-    public Crop(String cropid, String cropname, String quantities, String addres, String detail, String phone) {
-        this.cropid = cropid;
+    public Crop(String id, String cropname, String quantities, String addres, String detail, String phone) {
+        this.id = id;
         this.cropname = cropname;
         this.quantities = quantities;
         this.addres = addres;
@@ -21,8 +21,8 @@ public class Crop {
 
     }
 
-    public String getCropid() {
-        return cropid;
+    public String getId() {
+        return id;
     }
 
     public String getCropname() {

@@ -82,6 +82,9 @@ public class HomePage extends AppCompatActivity implements BottomNavigationView.
             case R.id.navigation_dashboard:
                 fragment = new SellListFragment();
                 break;
+            case R.id.navigation_notifications:
+                fragment = new Notification();
+                break;
         }
         return loadFragment(fragment);
     }

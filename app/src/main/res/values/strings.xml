@@ -12,6 +12,7 @@
     <string name="quantity">Quantity</string>
     <string name="address">Address</string>
     <string name="sell">Sell</string>
+    <string name="buy">Buy</string>
     <string name="number">Phone Number</string>
     <string name="details">Details</string>
     <string name="title_activity_crop_view">CropView</string>

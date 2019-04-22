@@ -1,25 +1,23 @@
 package com.example.farmerbuddy;
 
-public class Crop {
+public class Notify {
     String id;
     String username;
     String cropname;
     String quantities;
     String addres;
-    String detail;
     String phone;
 
-    public Crop(String id,String username ,String cropname, String quantities, String addres, String detail, String phone) {
+    public Notify(String id,String username ,String cropname, String quantities, String addres,String phone) {
         this.id = id;
-        this.username= username;
+        this.username = username;
         this.cropname = cropname;
         this.quantities = quantities;
         this.addres = addres;
-        this.detail = detail;
         this.phone = phone;
     }
 
-    public Crop(){}
+    public Notify(){}
 
     public String getUsername() { return username; }
 
@@ -37,10 +35,6 @@ public class Crop {
 
     public String getAddres() {
         return addres;
-    }
-
-    public String getDetail() {
-        return detail;
     }
 
     public String getPhone() {

@@ -17,6 +17,11 @@
             android:layout_marginRight="10dp"
             android:orientation="vertical">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="264dp"
+                android:src="@drawable/background" />
+
 
             <EditText
                 android:id="@+id/cropname"
@@ -31,23 +36,10 @@
                 android:hint="@string/quantity" />
 
             <EditText
-                android:id="@+id/address"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/address" />
-
-            <EditText
                 android:id="@+id/details"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/details" />
-
-            <EditText
-                android:id="@+id/phonenumber"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/number"
-                android:inputType="phone" />
 
             <Button
                 android:id="@+id/buttonsell"

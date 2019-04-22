@@ -28,19 +28,25 @@ public class CropList extends ArrayAdapter<Crop> {
 
         View listViewItem = inflater.inflate(R.layout.list_layout,null,true);
 
+        TextView textViewuserid = (TextView)listViewItem.findViewById(R.id.userid);
+        TextView textViewusername = (TextView)listViewItem.findViewById(R.id.username);
         TextView textViewName = (TextView)listViewItem.findViewById(R.id.namecrop);
         TextView textViewQuan = (TextView)listViewItem.findViewById(R.id.quan);
         TextView textViewAdd = (TextView)listViewItem.findViewById(R.id.add);
         TextView textViewDet = (TextView)listViewItem.findViewById(R.id.det);
         TextView textViewPh = (TextView)listViewItem.findViewById(R.id.ph);
 
+
         Crop crop = cropList.get(position);
 
+        textViewuserid.setText(crop.getId());
+        textViewusername.setText(crop.getUsername());
         textViewName.setText(crop.getCropname());
         textViewQuan.setText(crop.getQuantities());
         textViewAdd.setText(crop.getAddres());
         textViewDet.setText(crop.getDetail());
         textViewPh.setText(crop.getPhone());
+
 
         return listViewItem;
 

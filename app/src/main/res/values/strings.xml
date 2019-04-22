@@ -21,4 +21,7 @@
     <string name="forgot_password">Forgot Password ?</string>
     <string name="already_account">Already have an account ?</string>
     <string name="textview">Welcome</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="save">Save</string>
 </resources>

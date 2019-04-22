@@ -14,6 +14,7 @@ public class Main2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
 
     new Handler().postDelayed(new Runnable() {
+
         @Override
         public void run() {
             Intent home = new Intent(Main2Activity.this,MainActivity.class);

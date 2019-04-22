@@ -79,7 +79,7 @@ EditText editTextEmail, editTextPassword;
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
                     Toast.makeText(getApplicationContext(),"User Registered Successful",Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(getApplicationContext(),HomePage.class));
+                    startActivity(new Intent(getApplicationContext(),Profile.class));
                     finish();
                 }
                 else {

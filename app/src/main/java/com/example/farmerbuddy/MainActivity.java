@@ -76,14 +76,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
             editTextEmail.setError("Please Enter a valid email");
             editTextEmail.requestFocus();
-
-
-            return;
-        }
-
-        if(password.length()<6){
-            editTextPassword.setError("Minimum length of password is 6");
-            editTextPassword.requestFocus();
             return;
         }
 
@@ -92,6 +84,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             editTextPassword.requestFocus();
             return;
         }
+        if(password.length()<6){
+            editTextPassword.setError("Minimum length of password is 6");
+            editTextPassword.requestFocus();
+            return;
+        }
+
+
         mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {

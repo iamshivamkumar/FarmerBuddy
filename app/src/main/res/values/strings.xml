@@ -17,7 +17,7 @@
     <string name="details">Details</string>
     <string name="title_activity_crop_view">CropView</string>
     <string name="send_email">Send Email Reset Link</string>
-    <string name="Remeber_password">Remeber Password ?</string>
+    <string name="Remeber_password">Remember Password ?</string>
     <string name="forgot_password">Forgot Password ?</string>
     <string name="already_account">Already have an account ?</string>
     <string name="textview">Welcome</string>
